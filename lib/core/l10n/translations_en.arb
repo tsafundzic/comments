@@ -1,0 +1,74 @@
+{
+  "appName": "Comments",
+  "@appName": {
+    "type": "text",
+    "description": ""
+  },
+  "generalOk": "Ok",
+  "@generalOk": {
+    "type": "text",
+    "description": ""
+  },
+  "commentsFetchDataError": "Something went wrong with comments fetch, showing data from database",
+  "@commentsFetchDataError": {
+    "type": "text",
+    "description": ""
+  },
+  "commentsNoComments": "No comments",
+  "@commentsNoComments": {
+    "type": "text",
+    "description": ""
+  },
+  "commentsId": "ID: {id}",
+  "@commentsId": {
+    "type": "text",
+    "description": "",
+    "placeholders": {
+      "id": {
+        "type": "int",
+        "format": "compact"
+      }
+    }
+  },
+  "commentsPostId": "PostId: {id}",
+  "@commentsPostId": {
+    "type": "text",
+    "description": "",
+    "placeholders": {
+      "id": {
+        "type": "int",
+        "format": "compact"
+      }
+    }
+  },
+  "commentsName": "Name: {name}",
+  "@commentsName": {
+    "type": "text",
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "commentsEmail": "Email: {email}",
+  "@commentsEmail": {
+    "type": "text",
+    "description": "",
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
+  "commentsBody": "Body: {body}",
+  "@commentsBody": {
+    "type": "text",
+    "description": "",
+    "placeholders": {
+      "body": {
+        "type": "String"
+      }
+    }
+  }
+}
